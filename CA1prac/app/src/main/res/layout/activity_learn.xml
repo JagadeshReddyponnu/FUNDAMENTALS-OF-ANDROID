@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/img_3">
+    <TextView
+        android:id="@+id/txtv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instagram"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="170dp"
+        />
+    <ImageView
+        android:id="@+id/imv1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img_4"
+        android:layout_below="@+id/txtv3"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"/>
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imv1"
+        android:hint="UserName"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:textSize="25sp"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:gravity="center"
+        android:layout_below="@+id/edt1"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt2"
+        android:layout_marginLeft="146dp"
+        android:textSize="26sp"
+        android:backgroundTint="#0F0101"
+        android:text="Sign in" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:text="order"
+        android:textColor="@color/black"
+        android:textSize="30sp"/>
+
+</RelativeLayout>

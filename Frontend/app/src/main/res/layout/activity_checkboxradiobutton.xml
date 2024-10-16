@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_3"
+    >
+
+    <TextView
+        android:id="@+id/txtvw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDD835"
+        android:backgroundTint="#EFC50B"
+        android:text="Select Your Pizza "
+        android:textColor="#F40909">
+
+    </TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/radiogrouprg">
+
+        <RadioButton
+            android:id="@+id/RB1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#160202"
+            android:text="Paneer pizza"
+            android:textColor="#F8F5F5" />
+
+        <RadioButton
+            android:id="@+id/RB2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0B0101"
+            android:text="chicken pizza"
+            android:textColor="#EDE7E7" />
+
+        <RadioButton
+            android:id="@+id/RB3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#160101"
+            android:text="veg pizza"
+            android:textColor="#EFEBEB" />
+
+        <TextView
+            android:id="@+id/txtvw2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FDD835"
+            android:text="Select Your Pizza Size"
+            android:textColor="#F4511E" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiogrouprg2">
+
+            <RadioButton
+                android:id="@+id/RB4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1A0101"
+                android:text="Small"
+                android:textColor="#F8F5F5" />
+
+            <RadioButton
+                android:id="@+id/RB5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0F0101"
+                android:text="Medium"
+                android:textColor="#F2F0F0" />
+
+            <RadioButton
+                android:id="@+id/RB6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0F0000"
+                android:text="Large"
+                android:textColor="#FBF8F8" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txtvw3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FDD835"
+            android:text="Topplings"
+            android:textColor="#FB0909" />
+
+        <CheckBox
+            android:id="@+id/CB1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#090202"
+            android:text="Extra cheese"
+            android:textColor="#F8F7F7" />
+
+        <CheckBox
+            android:id="@+id/CB2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#040303"
+            android:text="Pepperoni"
+            android:textColor="#FBFBFB" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

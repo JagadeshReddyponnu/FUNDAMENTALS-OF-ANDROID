@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/img">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Bouqe"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="205dp"
+        android:layout_height="200dp"
+        android:background="@drawable/img_1"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="205dp"
+        android:layout_height="200dp"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/img_2"/>
+    <TextView
+        android:id="@+id/txtv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Type"
+        android:layout_below="@+id/img1"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtv1">
+
+        <RadioButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online Order"
+            android:textSize="25sp"
+            android:textColor="?android:attr/colorActivatedHighlight"
+            android:buttonTint="@android:color/holo_blue_bright"/>
+        <RadioButton
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take away"
+            android:textSize="25sp"
+            android:textColor="@android:color/holo_orange_dark"
+            />
+
+    </RadioGroup>
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rg1"
+        android:text="Agree"
+        android:textSize="25sp"
+        android:textColor="@color/design_default_color_primary"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb1"
+        android:layout_centerHorizontal="true"
+        android:text="Submit"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+//Conditional Statements
+/*fun main(){
+    val temp = 25
+    if(temp>23){
+        println("it is a warmer day")
+    }
+}*/
+/*fun main(){
+    val age =18
+    if(age>=18){
+        println("You are an adult")
+    }
+    else{
+        println("you are a minor")
+    }
+} */
+
+/*fun main(){
+    var marks =88
+    if(marks>=90){
+        println("your grade is A")
+    }
+    else if(marks>=85){
+        println("your grade is B")
+    }
+    else if(marks>=70){
+        println("your grade is c")
+    }
+    else{
+        println("your grade is D")
+    }
+    */
+/*fun main(){
+    val a=10
+    val b=5
+    val Operator ="+"
+    if(Operator=="+"){
+        println("Result:${a +b}")
+    }
+    else if(Operator=="-"){
+        println("Result:${a - b}")
+    }
+    else if(Operator=="*"){
+        println("Result:${a *b}")
+    }
+    else if(Operator=="+"){
+        if(b!=0){
+            println("result:${a/b}")
+        }
+       else{
+           print("error:Division by zero")
+       }
+    }
+    else{
+           println("unsupported operator")
+       }
+    
+} */
+//WHEN
+/*fun main(){
+    val dayofweek =4
+    val dayname= when(dayofweek)
+    {
+        1 -> "Monday"
+        2 -> "Tuesday"
+        3 -> "Wednesday"
+        4 -> "Thusday"
+        5 -> "Friday"
+        6 -> "Saturday"
+        7 -> "Sunday"
+        else -> "Invalid day"
+    }
+    println("Day of the week: $dayname")
+}
+*/
+/*fun main(){
+    val number =9
+    when{
+        number%2==0 ->println("$number is even")
+        number%2!=0 ->println("$number is odd")
+    else -> println("Unexpected number")   
+    }
+}*/       

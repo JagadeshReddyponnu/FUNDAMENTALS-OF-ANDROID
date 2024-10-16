@@ -1,0 +1,41 @@
+//21-08
+/*fun main(){
+    val numbers = arrayOf(1,2,3,4,5)
+    val words:Array<String> = arrayOf("kotlin","java","python")
+    val squares = Array(5) {i ->i*i}
+    val firstnumber = numbers[0]
+    val secondnumber=words[1]
+    val thirdnumber=squares[2]
+    println(firstnumber)
+    println(secondnumber)
+    println(thirdnumber)
+    //error to change
+    numbers[3]=6
+    println(numbers)
+}*/
+//for loop and assinging number
+/*fun main(){
+    val numbers = arrayOf(1,2,3,4,5)
+    numbers[3]=6
+    for (num in numbers)
+    println(num)
+}*/
+//2d array
+/*fun main(){
+    val matrix:Array<Array<Int>> = arrayOf(arrayOf(1,2,3,4,5),arrayOf(6,7,8,9,10))
+    println(" ${matrix[0][1]}")
+}*/
+//type conversion
+/*fun main(){
+    val x:Int=100
+    //val y:Long=x
+    val y:Long=x.toLong()
+    println(y)
+}*/
+/*fun main(){
+    var a ="hi"
+    var b:String= a as String
+    println("unsafe casting reuslt: $b")
+   // val c:Int=a as? Int
+   // println("unsafe casting reuslt: $a")
+}*/

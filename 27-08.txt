@@ -1,0 +1,79 @@
+//27-08
+/*fun main(){
+    for(i in 1..5){
+        println("number:$i")
+    }
+}*/
+//it exclude last element
+/*fun main(){
+    for(i in  1 until 5){
+        println("number:$i")
+    }
+}*/
+//Reverse loop
+/*fun main(args:Array<String>){
+    for (i in 5 downTo 1){
+        println(i)
+    }
+}*/
+//Reverse step size
+/*
+ fun main(args:Array<String>){
+    for(i in 5 downTo 1 step 2){// every step 2 number will be removed
+        println(i)
+    }
+}*/
+//iterating over the list
+/*fun main(){
+    val fruits =listOf("Apple","Banana","Mango","cherry")
+    for(fruit in fruits){
+        println(fruit)
+    }
+}*/
+/*fun main(){
+    val fruits =listOf("Apple","Banana","Mango","cherry")
+    for(index in fruits.indices){
+        println("fruit at index $index: $fruits")
+    }
+
+}*/
+/*fun main(){
+    var i =5
+    while(i>0){
+        println("Value is : $i")
+        i--
+    }
+}*/
+/*fun main(){
+    var i =5
+    do{
+        println("Value is :$i")
+        i--
+    }
+    while(i>5)
+}*/
+/*fun main(){
+    var i =5 
+    do{
+        println("value is: $i")
+        i--
+    }
+    while(i>0)  
+}
+fun main(){
+    var i = 1 
+    do{
+        println("value is: $i")
+        i++
+    }
+    while(i<= 5)  
+}*/
+// FUNCTIONS
+/*fun demo(){
+    println("Hello,World!")
+}
+fun main(args:Array<String>)
+{
+    demo()
+    println("Bye")
+}*/

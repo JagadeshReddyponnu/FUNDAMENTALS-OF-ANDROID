@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/img_4"
+    tools:context=".practice1">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Sign Up"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:textColor="#0F0000"
+        android:paddingLeft="150dp"
+        android:textSize="30sp"
+        >
+
+    </TextView>
+    <ImageView
+        android:id="@+id/imv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_8"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        >
+    </ImageView>
+
+
+    <EditText
+        android:id="@+id/ET1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/imv1"
+        android:textSize="23sp"
+        android:hint="Enter Your Phone Number"
+        android:textColorHint="@color/black"
+        android:inputType="phone">
+
+    </EditText>
+    <EditText
+        android:id="@+id/ET2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ET1"
+        android:textSize="23sp"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:hint="Enter Your Password"
+        android:textColorHint="@color/black">
+    </EditText>
+    <Button
+        android:id="@+id/fbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ET2"
+        android:text="Sign Up"
+
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="150dp">
+    </Button>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fbtn1"
+        android:textSize="20sp">
+
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+//20-08
+
+/*fun main(){
+    val a= 10
+    val b=20
+    val result="sum of $a and $b is ${a+b}"
+    print(result)
+}*/
+
+/*  main(){
+    val letter:Char='A'
+    print("$letter")
+    print('\n')
+    print('\$')
+    print('\\')
+    */
+/*fun main(){
+    val a = 
+    print("jagadesh\n \t jagadesh\n\t\t jagadesh \n\t\t\t")
+    
+}*/
+/*fun main(){
+    //array of integers
+    val numbers = arrayof(1,2,3,4,5)
+    //array of strings
+    val words: Array<String> = arrayof("kotlin")
+    //array of squares using lambda function
+    val squares = array(5) {i ->i*i}
+}*/                            

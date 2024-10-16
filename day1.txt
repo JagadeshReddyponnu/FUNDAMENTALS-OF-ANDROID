@@ -1,0 +1,36 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+/*fun main(args:Array<String>) {
+    var a = 40
+    print(a)
+    var `try`=9
+    print(`try`)
+}*/
+/*
+fun main(){
+    var a= 20
+    var b : String
+    print(a)
+    
+}*/
+
+/*fun main(){
+    var message = "hello"
+    println(message)
+}
+//println(message)*/
+
+
+/*class person{
+    var kotlin ="hello"
+    fun displayInfo(){
+        println(kotlin)
+    }
+}
+fun main(){
+    val person = person()
+    person.displayInfo()
+}*/
+
